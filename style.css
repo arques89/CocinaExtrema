@@ -1,0 +1,12 @@
+/* Estilo personalizado para el menú desplegable */
+.navbar .dropdown-menu-right {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: auto;
+    transform: translateX(0);
+}
+
+.navbar .nav-item.dropdown:hover .dropdown-menu-right {
+    display: block;
+}
