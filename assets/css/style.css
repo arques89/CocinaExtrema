@@ -1,0 +1,19 @@
+:root {
+    /* Background colors */
+    --main-bg-color: #000000;
+    --secondary-bg-color: #595959;
+    --tertiary-bg-color: #c1beb8;
+
+    /* Font colors */
+    --main-font-color: #ce4f20;
+}
+
+/* CSS Properties */
+body {
+    background-color: var(--main-bg-color);
+}
+
+/* Navbar */
+.nav-colored {
+    background-color: var(--secondary-bg-color);
+}
