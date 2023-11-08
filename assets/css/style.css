@@ -4,6 +4,7 @@
     --tertiary-bg-color: #c1beb8;
 
     --main-color: #ce4f20;
+    --secondary-color: #ffffff;
   }
 
 /* Body */
@@ -35,6 +36,9 @@ body {
 }
 
 /* Main */
+.container {
+    color: var(--secondary-color);
+}
 .container img {
     width: 223px;
     height: 223px;
