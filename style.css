@@ -9,4 +9,13 @@
 
 .navbar .nav-item.dropdown:hover .dropdown-menu-right {
     display: block;
+
+}
+.navbar-dark .navbar-toggler-icon {
+    width: 78px;
+    height: 78px;
+}
+
+.navbar--logo {
+    width: 78px;
 }
