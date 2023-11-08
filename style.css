@@ -1,3 +1,17 @@
+:root {
+    --main-bg-color: #000000;
+    --secondary-bg-color: #595959;
+    --tertiary-bg-color: #c1beb8;
+
+    --main-color: #ce4f20;
+  }
+
+/* Body */
+body {
+    background-color: var(--main-bg-color);
+}
+
+
 /* Estilo personalizado para el menú desplegable */
 .navbar .dropdown-menu-right {
     position: absolute;
@@ -18,4 +32,10 @@
 
 .navbar--logo {
     width: 78px;
+}
+
+/* Main */
+.container img {
+    width: 223px;
+    height: 223px;
 }
