@@ -37,15 +37,30 @@ body {
     width: 78px;
 }
 
+/* Navbar */
+.nav-colored {
+    background-color: var(--tertiary-bg-color) !important;
+}
+
 /* Main */
 .container {
     color: var(--secondary-color);
 }
-.container img {
-    width: 223px;
-    height: 223px;
+
+.container .icons p {
+    margin-top: 1rem !important;
 }
-/* Navbar */
-.nav-colored {
-    background-color: var(--tertiary-bg-color) !important;
+
+.video-icon img {
+    width: 140px;
+    height: 120px;
+}
+
+.chef-icon img {
+    width: 124px;
+    height: 124px;
+}
+.tray-icon img {
+    width: 172px;
+    height: 130px;
 }
