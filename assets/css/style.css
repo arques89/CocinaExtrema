@@ -1,17 +1,20 @@
 :root {
+    /* Background colors */
     --main-bg-color: #000000;
     --secondary-bg-color: #595959;
     --tertiary-bg-color: #c1beb8;
 
-    --main-color: #ce4f20;
+    /* Font colors */
+    --main-font-color: #ce4f20;
     --secondary-color: #ffffff;
-  }
+}
 
 /* Body */
+
+/* CSS Properties */
 body {
     background-color: var(--main-bg-color);
 }
-
 
 /* Estilo personalizado para el menú desplegable */
 .navbar .dropdown-menu-right {
@@ -24,7 +27,6 @@ body {
 
 .navbar .nav-item.dropdown:hover .dropdown-menu-right {
     display: block;
-
 }
 .navbar-dark .navbar-toggler-icon {
     width: 78px;
@@ -42,4 +44,8 @@ body {
 .container img {
     width: 223px;
     height: 223px;
+}
+/* Navbar */
+.nav-colored {
+    background-color: var(--secondary-bg-color);
 }
