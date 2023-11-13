@@ -72,3 +72,19 @@ body {
     width: 150px;
     height: 100px;
 }
+
+.bloque-superpuesto {
+    bottom: 39rem;
+    height: 45rem;
+    background-color: var(--main-bg-color);
+    width: 100px;
+}
+
+.bloque-superpuesto .play-button {
+    border-radius: 20px 20px;
+    padding: 0.1rem 1.2rem 0.1rem 1.2rem;
+}
+
+.bloque-superpuesto .play-button img {
+    width: 1rem;
+}
