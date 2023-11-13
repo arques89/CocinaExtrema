@@ -38,6 +38,7 @@ body {
     margin-block: auto;
     font-family: "Sedgwick Ave Display", cursive;
     font-size: 50px;
+    color: var(--main-bg-color);
 }
 
 .navbar--logo {
