@@ -94,3 +94,21 @@ body {
 .texto-superpuesto .play-button img {
     width: 1rem;
 }
+
+/* Footer */
+footer .main-logo {
+    width: 15rem;
+}
+
+.d-inline-flex li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container .container {
+    display: flex;
+}
