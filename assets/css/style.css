@@ -112,3 +112,8 @@ footer .main-logo {
 .flex-container .container {
     display: flex;
 }
+
+footer .social-links img {
+    width: 3rem;
+    height: 3rem;
+}
