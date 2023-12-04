@@ -99,6 +99,26 @@ body {
     filter: brightness(1.95);
 }
 
+/* Patrocinio */
+.patrocinadores {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.imagenes-patrocinadores {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.imagenes-patrocinadores img {
+    width: 100%;
+    max-width: 150px; /* Ajusta el tamaño máximo de las imágenes según sea necesario */
+    margin: 2rem;
+    padding: 1rem, 1rem, 0, 0;
+}
+
 /* Footer */
 footer .main-logo {
     width: 15rem;
