@@ -74,16 +74,14 @@ body {
 }
 
 .bloque-superpuesto {
-    bottom: 39rem;
     height: 45rem;
-    background-color: var(--main-bg-color);
     opacity: 40%;
 }
 
 .texto-superpuesto {
     position: absolute;
-    top: 90rem;
-    left: 5rem;
+    top: 95rem;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .texto-superpuesto .play-button {
