@@ -93,6 +93,12 @@ body {
     width: 1rem;
 }
 
+.text-decorated {
+    font-size: 1.5rem;
+    color: var(--secondary-bg-color);
+    filter: brightness(1.95);
+}
+
 /* Footer */
 footer .main-logo {
     width: 15rem;
