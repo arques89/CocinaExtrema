@@ -119,6 +119,10 @@ body {
     padding: 1rem, 1rem, 0, 0;
 }
 
+.slide-patrocinadores {
+    background-color: var(--tertiary-bg-color);
+}
+
 /* Footer */
 footer .main-logo {
     width: 15rem;
