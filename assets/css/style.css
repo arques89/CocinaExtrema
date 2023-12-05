@@ -93,12 +93,6 @@ body {
     width: 1rem;
 }
 
-.text-decorated h2 {
-    font-size: 1.5rem;
-    color: var(--secondary-bg-color);
-    filter: brightness(1.95);
-}
-
 /* Patrocinio */
 .patrocinadores {
     text-align: center;
