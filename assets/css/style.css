@@ -93,7 +93,7 @@ body {
     width: 1rem;
 }
 
-.text-decorated {
+.text-decorated h2 {
     font-size: 1.5rem;
     color: var(--secondary-bg-color);
     filter: brightness(1.95);
@@ -103,8 +103,11 @@ body {
 .patrocinadores {
     text-align: center;
     margin-top: 50px;
+    font-size: 1.5rem;
+    color: var(--secondary-bg-color);
+    filter: brightness(0.95);
+    font-weight: 300;
 }
-
 
 .imagenes-patrocinadores {
     display: flex;
@@ -121,6 +124,7 @@ body {
 
 .slide-patrocinadores {
     background-color: var(--tertiary-bg-color);
+    padding: 1.5rem;
 }
 
 /* Footer */
