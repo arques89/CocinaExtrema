@@ -143,3 +143,48 @@ footer .social-links img {
     width: 3rem;
     height: 3rem;
 }
+
+.container {
+    /* Estilos para el contenedor padre de Bootstrap */
+    max-width: 1140px; /* Por ejemplo, ajusta según el ancho máximo del contenedor en Bootstrap */
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .contenedor {
+    position: relative;
+    width: 100%; /* La imagen ocupa todo el ancho del contenedor */
+    margin: 0 auto; /* Centra el contenedor */
+  }
+  
+  .contenedor img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .texto-superpuesto {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%; /* Ocupa todo el alto del contenedor */
+    width: 40%; /* Ancho del fondo con opacidad */
+    background-color: rgba(0, 0, 0, 0.5); /* Color de fondo oscuro con opacidad */
+    color: white; /* Color del texto */
+    padding: 20px;
+    box-sizing: border-box; /* Incluye padding en el ancho y alto */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .texto-superpuesto h1 {
+    margin-top: 0;
+  }
+  
+  .texto-superpuesto p {
+    margin-bottom: 0;
+  }
+  
