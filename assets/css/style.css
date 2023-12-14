@@ -98,21 +98,21 @@ body {
     margin-left: auto;
     padding-right: 15px;
     padding-left: 15px;
-  }
-  
-  .contenedor {
+}
+
+.contenedor {
     position: relative;
     width: 100%; /* La imagen ocupa todo el ancho del contenedor */
     margin: 0 auto; /* Centra el contenedor */
-  }
-  
-  .contenedor img {
+}
+
+.contenedor img {
     width: 100%;
     height: auto;
     display: block;
-  }
-  
-  .texto-superpuesto {
+}
+
+.texto-superpuesto {
     position: absolute;
     top: 0;
     left: 0;
@@ -125,15 +125,15 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
-  
-  .texto-superpuesto h1 {
+}
+
+.texto-superpuesto h1 {
     margin-top: 0;
-  }
-  
-  .texto-superpuesto p {
+}
+
+.texto-superpuesto p {
     margin-bottom: 0;
-  }
+}
 
 /* Patrocinio */
 .patrocinadores {
