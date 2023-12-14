@@ -73,26 +73,6 @@ body {
     height: 100px;
 }
 
-.bloque-superpuesto {
-    height: 45rem;
-    opacity: 40%;
-}
-
-.texto-superpuesto {
-    position: absolute;
-    top: 95rem;
-    background: rgba(0, 0, 0, 0.5);
-}
-
-.texto-superpuesto .play-button {
-    border-radius: 20px 20px;
-    padding: 0.1rem 1.2rem 0.1rem 1.2rem;
-}
-
-.texto-superpuesto .play-button img {
-    width: 1rem;
-}
-
 .container {
     margin-right: auto;
     margin-left: auto;
@@ -124,7 +104,27 @@ body {
     box-sizing: border-box; /* Incluye padding en el ancho y alto */
     display: flex;
     flex-direction: column;
+    justify-content: end;
+}
+
+.texto-superpuesto .play-button {
+    width: 10rem;
+    height: 2rem;
+    border-radius: 20px 20px;
+    padding: 0.1rem 1.2rem 0.1rem 1.2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: center;
+    align-items: center;
+}
+
+.texto-superpuesto .play-button img {
+    width: 1rem;
+}
+
+.texto-superpuesto .play-button-teansparent {
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .texto-superpuesto h1 {
